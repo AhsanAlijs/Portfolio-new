@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
+:root{
+    --Light-blue:#0089b7;
+    --White:#ffff;
+}
+:root{
+    --Web-font:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    --Web-font2:'Tektur', cursive;
+}
+.main-containor-nav{
+    background-color:var(--Light-blue);
+    width: 100%;
+    padding: 20px;
+}
+.nav-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-heading{
+    color:white;
+    font-family:var(--Web-font);
+}
+.navbar-list{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap:20px;
+    list-style-type: none;
+    font-family:var(--Web-font2);
+    
+}
+.nav-anker{
+    text-decoration: none;
+    color:var(--White);
+    font-size: 20px;
+    font-weight:bolder;
+}
+.nav-anker:hover{
+    padding: 2px;
+}
+.nav-icon{
+    text-decoration: none;
+    color:var(--White);
+    font-size: 20px;
+    font-weight:bolder;
+}
