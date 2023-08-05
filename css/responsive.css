@@ -1,3 +1,27 @@
+@media (min-width: 250px) {
+    .nav-anker{
+        display: none;
+    }
+    .nav-icon{
+        display: block;
+    }
+}
+@media (min-width: 340px) {
+    .nav-anker{
+        display: none;
+    }
+    .nav-icon{
+        display: block;
+    }
+}
+@media (min-width: 375px) {
+    .nav-anker{
+        display: none;
+    }
+    .nav-icon{
+        display: block;
+    }
+}
 @media (min-width: 414px) {
     .nav-anker{
         display: none;
