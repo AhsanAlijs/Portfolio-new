@@ -1,4 +1,4 @@
-@media (min-width: 250px) {
+/* @media (min-width: 250px) {
     .nav-anker{
         display: none;
     }
@@ -24,7 +24,7 @@
 }
 @media (min-width: 414px) {
     .nav-anker{
-        display: none;
+        display: block;
     }
 }
 @media (min-width: 500px) {
@@ -81,4 +81,4 @@
 }
 
 
-
+ */

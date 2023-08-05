@@ -15,7 +15,7 @@
 .main-containor-nav{
     background-color:var(--Light-blue);
     width: 100%;
-    padding: 20px;
+    padding: px;
 }
 .nav-header{
     display: flex;
@@ -24,7 +24,8 @@
 }
 .nav-heading{
     color:white;
-    font-family:var(--Web-font);
+    font-family:var(--Web-font2);
+    font-weight: bolder;
 }
 .navbar-list{
     display: flex;
@@ -42,7 +43,7 @@
     font-weight:bolder;
 }
 .nav-anker:hover{
-    padding: 2px;
+  color: burlywood;
 }
 .nav-icon{
     text-decoration: none;
