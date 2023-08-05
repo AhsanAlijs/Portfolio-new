@@ -6,16 +6,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
 :root{
     --Light-blue:#0089b7;
+    --dark-blue:#003d62;
+    --darkest-blue:#031825;
     --White:#ffff;
+    --light-yellow:#fff384bb;
+    --orange:#ffba6c;
 }
 :root{
     --Web-font:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     --Web-font2:'Tektur', cursive;
 }
+.main-containor{
+    background-color: var(--dark-blue);
+}
 .main-containor-nav{
     background-color:var(--Light-blue);
     width: 100%;
-    padding: px;
 }
 .nav-header{
     display: flex;
@@ -51,4 +57,129 @@
     color:var(--White);
     font-size: 20px;
     font-weight:bolder;
+}
+
+
+.image-text{
+    text-align: center;
+}
+.image-img{
+    width: 20rem;
+    border-radius: 32% 68% 65% 35% / 20% 51% 49% 80% ;
+}
+
+.image{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5rem;
+    
+}
+.text{
+    text-align: center;
+    align-items: center;
+    margin-right: 10rem;
+    color: var(--White);
+    line-height:30px;
+}
+.bold-span{
+    font-weight: bolder;
+    font-size: 50px;
+    font-family: var(--Web-font2);
+}
+.normal-span{
+    font-size: 35px;
+    font-family: var(--Web-font2);
+}
+.span-color{
+    color:var(--light-yellow);
+}
+.sec-span{
+    font-weight: bolder;
+    font-family: var(--Web-font2);
+    font-size: xx-large;
+}
+.color{
+    background-color: var(--Light-blue);
+    width:100%;
+    height: 5px;
+}
+.pro-head{
+    text-align: center;
+    margin-top: 50px;
+    color: var(--White);
+    font-family: var(--Web-font2);
+    font-weight: bolder;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 60px;
+}
+.pro-main-div{
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+   gap: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.pro-images{
+    width: 40%;
+    border: 5px solid var(--orange);
+    border-radius: 20px;
+}
+.pro-images:hover{
+    padding: 5px;
+}
+.footer-head{
+    font-weight: bolder;
+    font-size:100px;
+    color: var(--White);
+    font-family: var(--Web-font2);
+    
+}
+.main-footer{
+    margin-top: 30px;
+    background-color: var(--darkest-blue);
+    /* margin-left:5%;
+    margin-right:5%; */
+    height:auto;
+    text-align: center;
+    padding: 3rem;
+    
+}
+.footer-anker{
+    color: var(--White);
+    font-size:2rem;
+    text-decoration: none;
+    font-family: var(--Web-font2);
+}
+.icon-div-main{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    width: 48%;
+    margin-left: 23%;
+    line-height:2;
+    gap: 10px;
+}
+.copyright{
+    text-align: center;
+    color: var(--White);
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: var(--Web-font2);
+    padding: 30px;
+}
+.copy-right-anker{
+    color: var(--White);
+    text-decoration: none;
+}
+.copy-right-anker:hover{
+    color: var(--orange);
+    text-decoration: underline;
 }

@@ -82,3 +82,30 @@
 
 
  */
+ @media (min-width: 200px) { 
+    .image-img{
+        width:17rem;
+
+    }
+    .main-containor-nav{
+        width: auto;
+    }
+    .main-containor{
+        width:100%;
+    }
+    .text{
+        margin-left:10rem;
+        margin-top: 5rem;
+    }
+    .footer-head{
+        font-size: 25px;
+    }
+}
+@media (min-width:1240px) {
+    .image-img{
+        width:24rem;
+
+    }
+    
+    
+}
