@@ -184,3 +184,14 @@
     color: var(--orange);
     text-decoration: underline;
 }
+.pro-headr{
+    color: var(--White);
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: var(--Web-font2);
+    margin-top: 10px;
+    
+}
+.pro-aner{
+    text-decoration: none;
+}
